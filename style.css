@@ -1,0 +1,551 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+}
+.badge:hover
+{
+    transform: scale(1.1);
+}
+.main
+{
+    height: 100vh;
+    display: flex;
+    padding: 0.5rem;
+}
+.player-control-img img 
+{
+    opacity: 0.7;
+}
+.player-control-img img:hover
+{
+    opacity: 1;
+}
+.sidebar
+{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5em;
+}
+.main-content
+{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.music-player
+{
+    position: fixed;
+    background-color: #121212;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+}
+.album_part
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+   
+}
+.content_album 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+    padding-left: 10px;
+   
+}
+#daylight
+{
+    font-weight: 700;
+}
+#name
+{
+    font-weight: 700;
+    opacity: 0.4;
+}
+.player_img
+{
+    display: flex;
+   
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+#img_player_1
+{
+    border-radius: 5px;
+   
+    margin-right: 10px;
+    width: 150px;
+}
+#img_player_2
+{
+    height: 40%;  
+}
+#img_player_3
+{
+   height: 50%;
+   margin-right: 60px;
+}
+.player_part
+{
+  width: 50%;
+  height: 100%;
+ 
+}
+.player-control
+{
+    height: 60%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+}
+.player-control-img
+{
+    height: 100%;
+    width: 30%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-control-img img 
+{
+    height: 30%;
+    opacity: 0.5;
+}
+#playbutton
+{
+    opacity: 1;
+    transform: scale(2);
+    margin: 0 30px;
+}
+#playbutton:hover 
+{
+    transform: scale(2.3);
+ }
+.playback-control
+{
+   
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#hide
+{
+    transform: none;
+}
+.control_part
+{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#play1
+{
+ 
+   margin-right: 10px;
+}
+#play2
+{
+   
+    margin-left: 10px;
+}
+#volume1
+{
+    align-self:flex-start;
+    margin-top: 5px;
+
+   width: 80%;
+}
+.control_part img 
+{
+    width: 30px;
+    height: 40%;
+    margin-right: 5px;
+   
+    margin-left: 10px;
+}
+
+#i4
+{
+    height: 20%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#i1:hover
+{
+    opacity: 1;
+}
+#i1
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#i2:hover
+{
+    opacity: 1;
+    
+}
+#i2
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#i2:hover
+{
+    
+    opacity: 1;
+}
+#i4:hover
+{
+    opacity: 1;
+}
+#i3
+{
+    opacity: 0.5;
+    height: 25%;
+    cursor: pointer;
+}
+#i3:hover
+{
+    opacity: 1;
+    
+}
+#i5
+{
+    margin-right: 10px;
+    opacity: 0.8;
+   
+}
+#i5:hover
+{
+    opacity: 1;
+}
+#i6
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#i6:hover
+{
+    opacity: 1;
+}
+#volume
+{
+   
+    height: 40%;
+    width: 30%;
+   
+}
+.nav
+{
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 140px;
+        background-color: #121212;
+        border-radius: 15px;
+       
+}
+.nav-option
+{
+    padding: 10px 21px;
+    opacity: 0.7;
+}
+.nav-option:hover
+{
+    opacity: 1;
+}
+.nav-option a
+{
+    margin-left: 20px;
+    text-decoration: none;
+    line-height: 20px;
+}
+.nav-option i
+{
+    font-size: 20px;
+}
+#home
+{
+    opacity: 1;
+}
+.library
+{
+    height: 100%;
+    background-color: #121212;
+}
+.option 
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+.lib-option img 
+{
+    height: 20px;
+    width: 20px;
+    
+}
+.lib-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    cursor: pointer;
+   
+}
+.lib-icons i 
+{
+    padding: 0 10px;
+    opacity: 0.7;
+}
+.lib-icons i:hover
+{
+    opacity: 1;
+}
+.box
+{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.25rem 0;
+    padding: 0.3rem 1.25rem;
+}
+.box-p1
+{
+    font-weight: 0.6;
+    background-color: #232323;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.box-p2
+{
+    background-color: #232323;
+        font-size: 0.75rem;
+    opacity: 0.75;
+    margin-bottom: 1rem;
+}
+.badge
+{
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    background-color: white;
+    opacity: 700;
+    height: 2rem;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 1rem;
+    
+     
+}
+.sticky-nav
+{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    width: 75vw;
+    z-index: 10;
+   
+}
+
+.install i
+{
+    padding-top: 1px;
+    margin: 0px;
+    align-self: center;
+}
+
+.install
+{
+    background-color: black;
+    color: white;
+    
+}
+.sticky-nav-download button,i
+{
+    margin-right: 2rem
+}
+.sticky-nav-direction 
+{
+   margin-left: 3rem;
+}
+.sticky-nav-direction  img 
+{
+   height: 1.5rem;
+   width: 1.5rem;
+}
+.install  button
+{
+   background-color: black;
+   color: white;
+}
+.install i  
+{
+    margin-right: 0.8rem;
+}
+.install div
+{
+    color: white;
+}
+@media (max-width:1000px) {
+    #hide
+    {
+        display: none;
+    }
+}
+
+.cards
+{
+   
+    padding: 3rem;
+}
+.card 
+{
+    margin-top: 1.5rem;  
+  
+    background-color: #232323;
+    width: 200px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 3rem;
+   margin-bottom: 1.5rem;
+   cursor: pointer;
+}
+.card:hover
+{
+    transform: scale(1.1);
+}
+.card-img1
+{
+    width: 100%;
+   
+}
+.card-title
+{
+    margin: 1rem 0;
+    background-color: #232323;
+    font-weight: 700;
+}
+.card-info
+{
+    background-color: #232323;
+    margin-bottom: 2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer
+{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line 
+{
+     width: 90%;
+     height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+button
+{
+    cursor: pointer;
+}
+#daylight
+{
+    cursor: pointer;;
+}
+#daylight:hover
+{
+    text-decoration: underline;
+}
+#name
+{
+    cursor: pointer;
+}
+#name:hover
+{
+    opacity: 1;
+    text-decoration: underline;
+}
+#img_player_2
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#img_player_3
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#img_player_2:hover
+{
+    opacity: 1;
+}
+#img_player_3:hover
+{
+    opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb
+{
+    appearance: none;
+    background-color: green;
+}
+#bell,#user
+{
+     cursor: pointer;
+    
+}
+#bell:hover
+{
+    transform: scale(1.2);
+}
+#user:hover
+{
+    transform: scale(1.2);
+}
